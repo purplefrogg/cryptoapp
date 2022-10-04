@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="logo-container">
         <Avatar src={icon} size='large' />
         <Typography.Title level={4} className='logo'>
-          <Link to='/'>VTKO-203 TEAM</Link>
+          <Link to='/'>Alisher company</Link>
         </Typography.Title>
         <Button className='menu-control-container'  onClick={()=> setActiveMenu(!activeMenu )}>
           <MenuOutlined />
